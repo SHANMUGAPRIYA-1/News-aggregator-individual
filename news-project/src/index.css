@@ -1,0 +1,130 @@
+
+
+.news-card {
+  width: calc(33.33% - 20px);
+  display: inline-block;
+  vertical-align: top;
+  margin:5px;
+  
+}
+
+.news-card .news a{
+  text-decoration: none;
+  font-size: 20px;
+}
+img {
+  width: 100%; 
+  transition: transform .2s;
+}
+img:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+.news h2 {
+  font-size: 25px;
+  color: #863e26ae;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.news h3 {
+  font-size: 16px;
+  font-family: 'Gill Sans MT';
+}
+
+.news p {
+  margin-top: 10px;
+}
+
+.header img{
+  float:left;
+  height:70px;
+  width:70px;
+  margin:10px;
+}
+
+.header h2 {
+  padding-top:30px;
+  font-size: 35px;
+  color:aliceblue;
+}
+
+
+button{
+ 
+  float:right;
+  margin:10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: transparent ;
+  border:transparent;
+  
+}
+
+button:hover{
+  filter: drop-shadow(0 0 2px white);
+  border: 1px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+.header
+{
+  height:100px;
+  width:100%;
+  background-color: #2cabf4;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Prev,
+.next {
+  padding: 8px 16px;
+  margin: 20px;
+  background-color:#2cabf4;
+  border: 1px solid #2cabf4;
+  color: #dfdede;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width:100px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(74, 203, 242), 0 6px 20px 0 rgb(74, 203, 242);
+}
+
+
+
+span {
+  margin: 0 10px;
+}
+
+.copy-rights{
+  height:100px;
+  width:100%;
+  border:1px solid rgb(174, 201, 237)
+}
+
+.copy-rights img{
+  height:50px;
+  width:50px;
+  display: inline;
+  padding-top:10px;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 24px; 
+  text-align: left; 
+  color: #2cabf4;
+}
